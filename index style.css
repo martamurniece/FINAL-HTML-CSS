@@ -76,7 +76,7 @@ button.extra {
 }
 
 .background-shapes {
-  background: url("/FINAL-HTML-CSSimages/background.png");
+  background: url("/FINAL-HTML-CSS/images/background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -141,5 +141,5 @@ button.extra {
   width: 100%;
 }
 body {
-  cursor:url(/images/donut.png), auto;
+  cursor:url(/FINAL-HTML-CSS/images/donut.png), auto;
 }

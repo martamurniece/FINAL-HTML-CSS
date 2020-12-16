@@ -113,15 +113,15 @@ h2 {
 }
 
 .beoplay {
-  background-image: url("/FINAL-HTML-CSSimages/beoplay-large.png");
+  background-image: url("/FINAL-HTML-CSS/images/beoplay-large.png");
 }
 
 .ai {
-  background-image: url("/FINAL-HTML-CSSimages/ai-large.png");
+  background-image: url("/FINAL-HTML-CSS/images/ai-large.png");
 }
 
 .consumption {
-  background-image: url("/FINAL-HTML-CSSimages/consumption-large.png");
+  background-image: url("/FINAL-HTML-CSS/images/consumption-large.png");
 }
 
 .content {
@@ -155,5 +155,5 @@ img{
   z-index: 2;
 }
 body {
-  cursor:url(/images/donut.png), auto;
+  cursor:url(/FINAL-HTML-CSS/images/donut.png), auto;
 }
