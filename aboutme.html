@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="initial-scale=1,maximum-scale=5,minimum-scale=1,width=device-width,height=device-height" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/aboutme.css">
+    <link rel="stylesheet" href="/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&amp;display=swap"
+        rel="stylesheet" />
+    <script src="/script.js"></script>
+    <title>Marta Murniece</title>
+</head>
+
+<body>
+    <nav>
+        <a class="logo" href="/">
+            <div class="name">
+                <div>Marta Murniece</div>
+                <div class="work-title">UX Designer</div>
+            </div>
+        </a>
+        <div class="menu">
+            <a href="/" >Home</a>|<a href="/#work">Work</a>|<a class="active" href="/aboutme.html">About me</a>
+        </div>
+    </nav>
+    <main>
+        <div class="text">
+            <h1>Hey there, nice to meet you!</h1>
+            <p>I am a UX designer with three years of experience in the field. When i am not busy designing interfaces
+                and
+                experiences, I love to bike, snowboard and take photos of my friends and family. </p>
+            <p>I am currently enrolled in The Hague university of Applied Sciences and looking for a <b>GRADUATION
+                    INTERSHIP</b>. check out my CV, if you want to know more about me!</p>
+            <p>And of course, I am always open to your thoughts and suggestions, if you’d like to chat, feel free to get
+                in
+                touch with me!</p>
+            <button onclick="openContact()">I want to chat</button>
+            <button onclick="document.location='/images/CV.png'">See CV</button>
+        </div>
+    </main>
+    <img class="image" src="/images/aboutme.png">
+    <aside>
+        <div class="contact-box">
+            <div class="close" onclick="closeContact()">
+                x
+            </div>
+            <img class="profile" src="/images/aboutme.png">
+            <div class="left">
+                <div class="links">
+                    <p>Find me on social media</p>
+                    <div class="social-wrapper spacer-v--sm">
+                        <a href="https://www.linkedin.com/in/marta-murniece-55b179104/" target="_blank">
+                            <img src="/images/linkedin.png">
+                        </a>
+                        <a href="https://www.instagram.com/martamuurniece/" target="_blank">
+                            <img src="/images/instagram.png">
+                        </a>
+                        <a href="https://www.flickr.com/photos/181732944@N08/" target="_blank">
+                            <img src="/images/flickr.png">
+                        </a>
+                    </div>
+                    <p>marta@martamurniece.com</p>
+                    <p>The Hague &amp; Riga</p>
+                </div>
+               
+            </div>
+            <div class="right">
+                <h1>Looking forward to hearing from you!</h1>
+                    <form id="contact" name="contact" method="POST">
+                        <input type="email" placeholder="email" name="email">
+                        <input type="text" placeholder="name" name="name">
+                        <textarea placeholder="your message" name="message"></textarea>
+                        <button type="submit" id="submit" class="secondary">Submit</button>
+                    </form>
+            </div>
+        </div>
+    </aside>
+</body>
+
+</html>

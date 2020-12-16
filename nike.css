@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  color: #4d4d4d;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+a:visited {
+  color: #4d4d4d;
+}
+a:hover {
+  color: #4d4d4d;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  padding: 33px 70px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+nav .logo {
+  float: left;
+  text-decoration: none;
+}
+nav .menu {
+  float: right;
+  transform: translateY(50%);
+}
+nav .menu a {
+  margin: 0 8px;
+}
+nav .menu .active {
+  border-bottom: 1px solid #5842a1;
+}
+
+article {
+  margin-top: 104px;
+  padding: 0 121px;
+}
+
+button {
+  padding: 0px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 42px;
+}
+button.primary {
+  background: #5842a1;
+  border: 3px solid #5842a1;
+  color: #ffffff;
+}
+button.secondary {
+  background: #ffffff;
+  border: 3px solid #5842a1;
+  color: #5842a1;
+}
+button.extra {
+  background: rgba(88, 66, 161, 0.5);
+  border: none;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #5842a1;
+  margin-top: 0px;
+}
+
+.title {
+  text-align: right;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 50px;
+}
+.grid img {
+  width: 100%;
+}
+
+.text {
+  margin-top: 50px;
+  width: 350px;
+}
+.back {
+  float: left;
+  margin-top: 15px;
+  background: none;
+  border: 3px solid #5842a1;
+  color:#5842a1;
+}
+body {
+  cursor:url(/images/donut.png), auto;
+}

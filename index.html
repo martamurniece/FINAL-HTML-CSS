@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="initial-scale=1,maximum-scale=5,minimum-scale=1,width=device-width,height=device-height" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/index style.css">
+    <link rel="stylesheet" href="/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&amp;display=swap"
+        rel="stylesheet" />
+        <script src="/script.js"></script>
+    <title>Marta Murniece</title>
+</head>
+
+<body>
+    <nav>
+        <a class="logo" href="/">
+            <div class="name">
+                <div>Marta Murniece</div>
+                <div class="work-title">UX Designer</div>
+            </div>
+        </a>
+        <div class="menu">
+            <a href="/" class="active">Home</a>|<a href="/#work">Work</a>|<a href="/aboutme.html">About me</a>
+        </div>
+    </nav>
+    <main>
+        <div class="background-shapes">
+            <div class="center-box">
+                <h1>
+                    👋 Hey, nice to see you stopping by!
+                </h1>
+                <div class="text">
+                    <p>
+                        My name is Marta and I am a User Experience designer with a passion
+                        for <b>simplicity and usability</b> in design.
+                    </p>
+                    <p>
+                        <strong>Currently looking for a graduation project.</strong>
+                    </p>
+                    <p>
+                        Check out my work to get to know me more and please
+                        <b>feel free to get in touch</b> if you’d like to chat!
+                    </p>
+                    <button  onclick="document.location='/#work'" class="secondary">See some work</button>
+                    <button class="primary" onclick="openContact()">I'd like to chat</button>
+                </div>
+                <img class="arrow-down" src="/images/arrow-down.png" />
+            </div>
+
+
+        </div>
+        <div class="grid" id="work">
+            <article class="work">
+                <a href="/works/nike.html" class="hover">
+                    <h2>Nike : Park Verademing</h2>
+                    <h3>Concept Proposal</h3>
+                </a>
+                <div class="work-content">
+
+                    <img src="/images/nike-iphone.png" alt="Nike : Park Verademing" />
+                    <div class="description">
+                        <h2>Nike : Park Verademing</h2>
+                        <h3>Concept Proposal</h3>
+                    </div>
+                </div>
+            </article>
+
+            <article class="work">
+                <a href="/works/plantean.html" class="hover">
+                    <h2>Plantean</h2>
+                    <h3>iOS design</h3>
+                </a>
+                <div class="work-content">
+                    <img src="/images/plantean-iphone.png" alt="Plantean" />
+                    <div class="description">
+                        <h2>Plantean</h2>
+                        <h3>iOS design</h3>
+                    </div>
+                </div>
+            </article>
+
+            <article class="work">
+                <a href="/works/thoughts-notes.html" class="hover">
+                    <h2>Thoughts & notes</h2>
+                    <h3>Gestural interfaces, AI & Energy Consuption</h3>
+                </a>
+                <div class="work-content">
+
+                    <img src="/images/thoughts-notes.png" alt="Thoughts & notes" />
+                    <div class="description">
+                        <h2>Thoughts & notes</h2>
+                        <h3>Gestural interfaces, AI & Energy Consuption</h3>
+                    </div>
+                </div>
+            </article>
+            <article class="work">
+                <a class="hover">
+                    <h2>Shop w/Us</h2>
+                    <h3>Different screen proposals</h3>
+                    <h2>COMING SOON</h2>
+                </a>
+                <div class="work-content">
+                    <img src="/images/shop.png" alt="Thoughts & notes" />
+                    <div class="description">
+                        <h2>Shop w/Us</h2>
+                        <h3>Different screen proposals</h3>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+    <aside>
+        <div class="contact-box">
+            <div class="close" onclick="closeContact()">
+                x
+            </div>
+            <img class="profile" src="/images/aboutme.png">
+            <div class="left">
+                <div class="links">
+                    <p>Find me on social media</p>
+                    <div class="social-wrapper spacer-v--sm">
+                        <a href="https://www.linkedin.com/in/marta-murniece-55b179104/" target="_blank">
+                            <img src="/images/linkedin.png">
+                        </a>
+                        <a href="https://www.instagram.com/martamuurniece/" target="_blank">
+                            <img src="/images/instagram.png">
+                        </a>
+                        <a href="https://www.flickr.com/photos/181732944@N08/" target="_blank">
+                            <img src="/images/flickr.png">
+                        </a>
+                    </div>
+                    <p>marta@martamurniece.com</p>
+                    <p>The Hague &amp; Riga</p>
+                </div>
+               
+            </div>
+            <div class="right">
+                <h1>Looking forward to hearing from you!</h1>
+                    <form id="contact" name="contact" method="POST">
+                        <input type="email" placeholder="email" name="email">
+                        <input type="text" placeholder="name" name="name">
+                        <textarea placeholder="your message" name="message"></textarea>
+                        <button type="submit" id="submit" class="secondary">Submit</button>
+                    </form>
+            </div>
+        </div>
+    </aside>
+</body>
+
+</html>

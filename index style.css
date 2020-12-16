@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  color: #4d4d4d;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+a:visited {
+  color: #4d4d4d;
+}
+a:hover {
+  color: #4d4d4d;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  padding: 33px 70px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+nav .logo {
+  float: left;
+  text-decoration: none;
+}
+nav .menu {
+  float: right;
+  transform: translateY(50%);
+}
+nav .menu a {
+  margin: 0 8px;
+}
+nav .menu .active {
+  border-bottom: 1px solid #5842A1;
+}
+
+main {
+  margin-top: 104px;
+}
+
+button {
+  padding: 0px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 42px;
+}
+button.primary {
+  background: #5842a1;
+  border: 3px solid #fff;
+  color: #fff;
+}
+button.secondary {
+  background: #fff;
+  border: 3px solid #fff;
+  color: #5842a1;
+}
+button.extra {
+  background: rgba(88, 66, 161, 0.5);
+}
+
+.background-shapes {
+  background: url("/images/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 586px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+.background-shapes .center-box {
+  transform: translateY(40%);
+}
+.background-shapes .text {
+  max-width: 480px;
+  margin: auto;
+  font-size: 20px;
+}
+
+.arrow-down {
+  margin-top: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.work {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+.work .hover {
+  display: none;
+}
+.work:hover .hover {
+  color: #ffffff;
+  display: block;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(77, 77, 77, 0.7);
+  text-align: center;
+}
+.work:hover .hover h2 {
+  color: #ffffff;
+}
+
+.work-content {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+.work-content h2 {
+  color: #5842a1;
+}
+.work-content .description {
+  text-align: right;
+  width: 100%;
+}
+body {
+  cursor:url(/images/donut.png), auto;
+}

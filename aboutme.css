@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  background: #5842a1;
+  background: linear-gradient(180deg, #5842a1 65%, white 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:visited {
+  color: #ffffff;
+}
+a:hover {
+  color: #ffffff;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  padding: 33px 70px;
+  box-sizing: border-box;
+}
+nav .logo {
+  float: left;
+  text-decoration: none;
+}
+nav .menu {
+  float: right;
+  transform: translateY(50%);
+}
+nav .menu a {
+  margin: 0 8px;
+}
+nav .menu .active {
+  border-bottom: 1px solid #ffffff;
+}
+
+main {
+  padding: 0 50px;
+  padding-top: 220px;
+  height: 100%;
+}
+
+button {
+  padding: 0px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 42px;
+  margin: 0px 10px 30px 10px;
+  background: #fff;
+  border: 3px solid #fff;
+  color: #5842a1;
+}
+.text {
+  width: 522px;
+}
+
+.image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+body {
+  cursor:url(/images/donut.png), auto;
+}
