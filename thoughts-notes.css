@@ -101,7 +101,7 @@ h2 {
 .beoplay,
 .ai,
 .consumption {
-  background-image: url("/FINAL-HTML-CSSimages/beoplay-small.png");
+  background-image: url("/FINAL-HTML-CSS/images/beoplay-small.png");
   background-repeat: no-repeat;
   height: 303px;
   width: 277px;
@@ -120,12 +120,12 @@ h2 {
 }
 
 .ai {
-  background-image: url("/FINAL-HTML-CSSimages/ai-small.png");
+  background-image: url("/FINAL-HTML-CSS/images/ai-small.png");
   margin-left: 30px;
 }
 
 .consumption {
-  background-image: url("/FINAL-HTML-CSSimages/consumption-small.png");
+  background-image: url("/FINAL-HTML-CSS/images/consumption-small.png");
   margin-left: 30px;
 }
 .back {
